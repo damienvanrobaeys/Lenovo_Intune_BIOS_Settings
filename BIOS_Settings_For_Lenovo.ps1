@@ -39,8 +39,8 @@ If (($IsPasswordSet -eq 1) -or ($IsPasswordSet -eq 2) -or ($IsPasswordSet -eq 3)
 		ElseIf($Language -eq "")
 			{
 				Write_Log -Message_Type "WARNING" -Message "No language has been sent to the script"  	
-				Write_Log -Message_Type "WARNING" -Message "The default language will be US" 
-				$Script:Language = 'US'
+				Write_Log -Message_Type "WARNING" -Message "The default language will be us" 
+				$Script:Language = 'us'
 			}			
 	}	
 	
